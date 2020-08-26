@@ -82,6 +82,7 @@ public class GameWindow extends JFrame {
         protected void paintComponent (Graphics g){
             super.paintComponent(g);
             onRepaint(g);
+            //Перерисовываем окно
             repaint();
         }
 
